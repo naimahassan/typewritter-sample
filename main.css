@@ -14,7 +14,9 @@ body{
     white-space: nowrap;/*keeping content in a single line*/
     margin: 0 auto;
     letter-spacing: 15em; /*for any adjustment*/
-    animation: typing 3.5s steps(30,end),blink-caret .5s step-end infinite;
+    animation:
+     typing 3.5s steps(30,end),
+     blink-caret .5s step-end infinite;
 
 }
 
@@ -26,8 +28,6 @@ body{
 
 /*the typewritter cursor effect*/
 @keyframes blink-caret {
-    from,to {
-        border-color: :transparent
-    }
+    from, to { border-color: transparent }
     50% {border-color: blue}
 }
